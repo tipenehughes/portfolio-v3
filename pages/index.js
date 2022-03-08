@@ -1,6 +1,8 @@
 import Head from "next/head";
 import HomeContent from "./components/HomeContent";
 import AboutContent from "./components/AboutContent";
+import ProjectsContent from "./components/ProjectsContent"
+import FormContent from "./components/FormContent"
 
 export default function Home() {
 	return (
@@ -12,6 +14,8 @@ export default function Home() {
 			</Head>
 			<HomeContent />
 			<AboutContent />
+			<ProjectsContent />
+			<FormContent />
 		</>
 	);
 }
